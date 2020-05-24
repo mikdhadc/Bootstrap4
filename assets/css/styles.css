@@ -1,6 +1,14 @@
 /*******************  TAGS  **************************/
+
+
 i{
-  margin: 30px;
+  color: white;
+  margin:10px;
+}
+
+body{
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
 }
 
 /*******************  CLASSEs  ***********************/
@@ -14,25 +22,36 @@ i{
 margin: 0px auto;
 padding: 50px 0px 50px 0px;
 border-bottom: 1px ridge;
-min-height: 400px;
+min-height: 200px;
 }
 
 .footer{
-  background-color: #abf0e9;
+  background-color: #efa8e4;
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
 }
 
 .jumbotron{
-  background: #58b4ae;
+  background: #6a097d;
   padding:70px 30px 70px 30px;
   margin: 0px auto;
-  color: #4d3e3e;
+  color: #ffffff;
 }
 
 .address{
   font-size: 80%;
   margin: 0px auto;
   color: #0f0f0f;
+}
 
+.navbar{
+
+}
+
+.navbar-dark{
+  background-color: #57007e;
+}
+
+.nav-item{
+  margin: 10px;
 }
