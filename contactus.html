@@ -62,6 +62,7 @@
         <div class="row row-content">
            <div class="col-12">
               <h3>Location Information</h3>
+              <br>
            </div>
             <div class="col-12 col-sm-4 offset-sm-1">
                    <h5>Our Address</h5>
@@ -90,9 +91,68 @@
         <div class="row row-content">
            <div class="col-12">
               <h3>Send us your Feedback</h3>
+              <br><br>
            </div>
             <div class="col-12 col-md-9">
-                Form goes here
+                <form class="" action="index.html" method="post">
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">  Firstname   </label>
+                        <div class="col-md-10">
+                              <input type="text" name="firstname"  class="form-control" id="firstname" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                          <label for="lastname" class="col-md-2 col-form-label">  Lastname   </label>
+                          <div class="col-md-10">
+                                <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name">
+                          </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">  Phone   </label>
+                        <div class="col-5 col-md-3">
+                              <input type="tel" name="areacode"  class="form-control" id="areacode" placeholder="Area code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                              <input type="tel" name="phone" class="form-control" id="telnum" placeholder="Tel. Number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                          <label for="emailid" class="col-md-2 col-form-label">  Email   </label>
+                          <div class="col-md-10">
+                                <input type="email" name="Email"  class="form-control" id="emailid" placeholder="Email">
+                          </div>
+                    </div>
+                    <div class="form-group row">
+                          <div class="col-md-6 offset-md-2">
+                              <div class="form-check">
+                                  <br>
+                                  <input type="checkbox" name="approve" class="form-check-input" id="approve" value="">
+                                  <label for="approve" class="form-check-label">
+                                    <strong>I agree that the above information is valid.</strong>
+                                  </label>
+                              </div>
+                          </div>
+                          <div class="col-md-3 offset-md-1">
+                            <br>
+                              <select class="form-control" name="">
+                                  <option value="">Tel.</option>
+                                  <option value="">Email</option>
+                              </select>
+                          </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your feedback</label>
+                        <div class="col-md-10">
+                          <textarea name="feedback" rows="8" class="form-control" id="feedback" ></textarea>
+
+                        </div>
+                    </div>
+                  <div class="form-group row">
+                      <div class="offset-md-2 col-md-10">
+                          <button type="submit" class="btn btn-primary" name="button">Submit</button>
+                      </div>
+                  </div>
+                </form>
             </div>
              <div class="col-12 col-md">
             </div>
